@@ -1,0 +1,35 @@
+td {
+  width: 100px;
+  padding: 10px;
+}
+
+img {
+  width: 200px;
+  height: 130px;
+  box-shadow: 1px black;
+  transition: all 0.3s ease;
+}
+
+.storBilde {
+  width: 40%;
+  height: auto;
+  margin-bottom: 32px;
+  border-radius: 20px;
+}
+body {
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+.storBilde:hover {
+  transform: none;
+}
