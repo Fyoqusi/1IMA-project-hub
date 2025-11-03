@@ -1,7 +1,7 @@
-<h1 align="center">Google Home Page</h1>
+<h1 align="center">Netflix Form</h1>
 <div align="center">
   <h3>
-    <a href="https://github.com/Fyoqusi/1IMA-project-hub/tree/main/Google%20Home%20Page">
+    <a href="https://github.com/Fyoqusi/1IMA-project-hub/tree/main/Netflix">
       Lenken til prosjektet
     </a>
   </h3>
@@ -22,7 +22,7 @@
 
 ## Overview
 
-Replika av Google Home Page. Ingen JavaScript, dare design.
+Replika av Netflix Sign Up Form. Ingen JavaScript, dare design.
 
 ## Built With
 
@@ -30,8 +30,6 @@ Replika av Google Home Page. Ingen JavaScript, dare design.
 - [CSS](https://www.w3schools.com/css/default.asp)
 
 ## Features
-
-Replika av en populær søkemotor
 
 - Ingen (bare visuelt)
 
@@ -45,7 +43,7 @@ Bare se på den
 
 ## Forventet resultat
 
-![Image_1](./images/image.png)
+![Image_1](./firefox_FU8SDa4h8s.jpg)
 
 ## Happy coding!
 
