@@ -1,7 +1,7 @@
 <h1 align="center">Google Home Page</h1>
 <div align="center">
   <h3>
-    <a href="https://fyoqusi.github.io/1IMA-project-hub/Google%20Home%20Page/">
+    <a href="https://github.com/Fyoqusi/1IMA-project-hub/tree/main/Google%20Home%20Page">
       Lenken til prosjektet
     </a>
   </h3>
@@ -28,12 +28,14 @@ Replika av Google Home Page. Ingen JavaScript, dare design.
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/default.asp)
+- JS
 
 ## Features
 
 Replika av en populær søkemotor
 
-- Ingen (bare visuelt)
+- Klikkbær "Sign in" button som viser sign in pop up
+- Design
 
 ## How To Use
 
@@ -73,4 +75,3 @@ Table of contents
    Hva jeg hadde gjort annerledes
 osv.
  -->
-
