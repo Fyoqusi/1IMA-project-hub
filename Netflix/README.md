@@ -1,7 +1,7 @@
 <h1 align="center">Netflix Form</h1>
 <div align="center">
   <h3>
-    <a href="https://github.com/Fyoqusi/1IMA-project-hub/tree/main/Netflix">
+    <a href="https://fyoqusi.github.io/1IMA-project-hub/Netflix/">
       Lenken til prosjektet
     </a>
   </h3>
@@ -71,3 +71,4 @@ Table of contents
    Hva jeg hadde gjort annerledes
 osv.
  -->
+
