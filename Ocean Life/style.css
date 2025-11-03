@@ -6,8 +6,8 @@ td {
 img {
   width: 200px;
   height: 130px;
-  box-shadow: 1px black;
-  transition: all 0.3s ease;
+  transition: transform 0.3s ease;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .storBilde {
@@ -27,9 +27,8 @@ h1 {
   font-size: 48px;
 }
 
-img:hover {
-  transform: scale(1.2);
-}
-.storBilde:hover {
-  transform: none;
+.smallPicture:hover {
+  outline: 3px solid rgb(96, 148, 246);
+  transform: translateY(-3px);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
