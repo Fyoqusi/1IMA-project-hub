@@ -1,74 +1,73 @@
-<h1 align="center">Netflix Form</h1>
 <div align="center">
-  <h3>
-    <a href="https://fyoqusi.github.io/1IMA-project-hub/Netflix/">
-      Lenken til prosjektet
-    </a>
-  </h3>
+  <h1 align="center">Netflix Clone</h1>
+    <h3>
+      <a href="https://fyoqusi.github.io/1IMA-project-hub/Netflix/" target="_blank">Lenke til prosjektet </a>
+    </h3>
 </div>
 
-<!-- ! Innholdsfortegnelse med lenker-->
-<!-- ! # fungerer her på nettsiden-->
+## Innholdsfortegnelse
 
-## Table of Contents
+- [Oversikt](#oversikt)
+- [Oppgavebeskrivelse](#oppgavebeskrivelse)
+- [Bygget med](#bygget-med)
+- [Funksjoner](#funksjoner)
+- [Prosjektstruktur](#prosjektstruktur)
+- [Refleksjon](#refleksjon)
+- [Forventet resultat](#forventet-resultat)
 
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
+## Oversikt
 
-<!-- ! OVERVIEW -->
+Dette prosjektet er et **Netflix-inspirert registreringsskjema** og en skoleoppgave.  
+Målet er å øve på:
 
-## Overview
+- HTML-skjema (input, select, checkbox, radio, textarea)
+- Design med CSS, inkludert bakgrunnsbilde over hele siden
 
-Replika av Netflix Sign Up Form. Ingen JavaScript, dare design.
+Nettsiden etterligner et skjema der en ny Netflix-bruker fyller inn informasjon om seg selv.
 
-## Built With
+## Oppgavebeskrivelse
+
+I denne oppgaven skulle vi lage en nettside som ligner på bildet læreren har gitt (Netflix-design).
+
+Krav til siden:
+
+- Bruke det tilsendte **bakgrunnsbildet** over hele siden.
+- Plassere en mørk boks oppå bildet
+- Lage et skjema
+- Style skjemaet slik at det passer til **Netflix-stilen**:
+  - rød knapp
+  - hvit tekst i skjemaet
+  - mørk, lett gjennomsiktig boks over bakgrunnsbildet
+
+## Bygget med
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/default.asp)
+  - Bakgrunnsbilde (background-image)
+  - Flexbox
+  - Styling av input, select, checkbox, radio, textarea og knapp
 
-## Features
+## Funksjoner
 
-- Ingen (bare visuelt)
+- Helsides bakgrunnsbilde med Netflix-plakater
+- Sentral boks med registreringsskjema
+- Ulike typer skjema-elementer:
+- Tydelig **Submit-knapp**
 
-## How To Use
+## Prosjektstruktur / Mappestruktur
 
-Bare se på den
-
-## Contact
-
-- GitHub [Danylo Chernov](https://github.com/Fyoqusi)
+```
+.
+├── index.html
+├── style.css
+├── images
+├── back.jpg
+├── firefox_FU8SDa4h8s.jpg
+└── README.md
+```
 
 ## Forventet resultat
 
 ![Image_1](./firefox_FU8SDa4h8s.jpg)
 
-## Happy coding!
-
-<!--
-En Readme file kan inneholde:
-Tittel
-Lenken til prosjektet
-Table of contents
-   Overwiew
-   Task Description
-   Built with / Teknologier brukt
-   API / Getting the API Key
-   Features
-   How to use
-   Project Structure
-   Contact
-   Resultat
-   Linker
-   License (This project is licensed under the MIT License.)
-   Documentation
-   UU / Design
-   Dette er fargene jeg brukte
-   Ressurser
-   Future Plans
-   Hva jeg hadde gjort annerledes
-osv.
- -->
-
+### Happy Coding! 😊
