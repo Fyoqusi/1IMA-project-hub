@@ -1,77 +1,84 @@
-<h1 align="center">Google Home Page</h1>
 <div align="center">
-  <h3>
-    <a href="https://github.com/Fyoqusi/1IMA-project-hub/tree/main/Google%20Home%20Page">
-      Lenken til prosjektet
-    </a>
-  </h3>
+  <h1 align="center">Google Home Page Clone</h1>
+    <h3>
+      <a href="https://fyoqusi.github.io/1IMA-project-hub/Google%20Home%20Page/" target="_blank">Lenke til prosjektet </a>
+    </h3>
 </div>
 
-<!-- ! Innholdsfortegnelse med lenker-->
-<!-- ! # fungerer her på nettsiden-->
+## Innholdsfortegnelse
 
-## Table of Contents
+- [Oversikt](#oversikt)
+- [Oppgavebeskrivelse](#oppgavebeskrivelse)
+- [Bygget med](#bygget-med)
+- [Funksjoner](#funksjoner)
+- [Prosjektstruktur](#prosjektstruktur)
+- [Refleksjon](#refleksjon)
+- [Forventet resultat](#forventet-resultat)
 
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
-- [Contact](#contact)
+## Oversikt
 
-<!-- ! OVERVIEW -->
+Dette prosjektet er en statisk klone av Google sin startside/søkeside. Målet er å gjenskape det rene og minimalistiske designet til Google, samt å inkludere en grunnleggende interaktiv funksjonalitet.
 
-## Overview
+Prosjektet fokuserer på å øve på:
 
-Replika av Google Home Page. Ingen JavaScript, dare design.
+- HTML-struktur for layout og navigasjon.
 
-## Built With
+- CSS-styling for å oppnå Googles karakteristiske utseende (sentrering, farger, ikonografi).
+
+- Implementering av JavaScript for enkel interaksjon (pop-up vindu).
+
+Nettsiden etterligner brukergrensesnittet for Googles søkeside, inkludert søkefeltet, knappene og toppnavigasjonen.
+
+## Oppgavebeskrivelse
+
+Målet var å lage en nettside som visuelt ligner på den klassiske Google-hjemmesiden.
+
+Krav til siden:
+
+- Gjenskape det rene, hvite bakgrunnsdesignet og den sentrerte Google-logoen.
+
+- Implementere et søkefelt med tilhørende knapper (Google Search og I'm Feeling Lucky).
+
+- Inkludere toppnavigasjon med lenker (f.eks. Gmail, Images) og ikoner.
+
+- Funksjonell "Sign In"-knapp i øvre høyre hjørne som, når den klikkes, utløser en pop-up/modal som simulerer en innloggingsboks.
+
+- Siden skal være responsiv i henhold til enkel Flexbox-praksis.
+
+## Bygget med
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/default.asp)
-- JS
+- [JavaScript](https://www.w3schools.com/Js/) For å håndtere klikk-hendelsen på Sign In-knappen og vise/skjule pop-up-vinduet.
 
-## Features
+## Funksjoner
 
-Replika av en populær søkemotor
+- Visuell Nøyaktighet: Nær gjengivelse av Google-sidens design og fargepalett.
 
-- Klikkbær "Sign in" button som viser sign in pop up
-- Design
+- Toppnavigasjon: Inkluderer lenker og det ni-punkts ikonet (Google Apps).
 
-## How To Use
+- Interaktiv Sign In-knapp:
 
-Bare se på den
+  - Klikk utløser en modal/pop-up boks.
 
-## Contact
+  - Pop-up-en simulerer en innloggingsboks (uten faktisk funksjonalitet).
 
-- GitHub [Danylo Chernov](https://github.com/Fyoqusi)
+- Søkefelt-design: Styling for å ligne på Googles søkefelt, inkludert mikrofonikonet.
+
+## Prosjektstruktur / Mappestruktur
+
+```
+.
+├── index.html
+├── style.css
+├── script.js
+├── images
+│   └── googlelogo.png
+└── README.md
+```
 
 ## Forventet resultat
 
-![Image_1](./images/image.png)
+![Image_1](./firefox_ELIMnWccea.png)
 
-## Happy coding!
-
-<!--
-En Readme file kan inneholde:
-Tittel
-Lenken til prosjektet
-Table of contents
-   Overwiew
-   Task Description
-   Built with / Teknologier brukt
-   API / Getting the API Key
-   Features
-   How to use
-   Project Structure
-   Contact
-   Resultat
-   Linker
-   License (This project is licensed under the MIT License.)
-   Documentation
-   UU / Design
-   Dette er fargene jeg brukte
-   Ressurser
-   Future Plans
-   Hva jeg hadde gjort annerledes
-osv.
- -->
+### Happy Coding! 😊
