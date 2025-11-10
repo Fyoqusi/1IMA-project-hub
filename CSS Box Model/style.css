@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -43,3 +44,50 @@ span {
   padding: 4px;
   font-family: monospace;
 }
+=======
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  background-color: rgb(225, 27, 27);
+  border: 3px solid black;
+  padding: 40px;
+}
+
+.paragraph {
+  color: white;
+  background-color: rgb(39, 39, 209);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+li {
+  padding: 3px;
+}
+#li1 {
+  background-color: green;
+}
+#li4 {
+  color: red;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+ul {
+  padding-left: 30px;
+}
+
+span {
+  background-color: rgb(234, 233, 233);
+  color: black;
+  padding: 4px;
+  font-family: monospace;
+}
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

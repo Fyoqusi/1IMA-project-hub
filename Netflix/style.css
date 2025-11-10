@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -96,3 +97,102 @@ h1 {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.32);
 }
+=======
+* {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2 {
+  color: white;
+  margin: 10px 0;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.4)),
+    url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.form {
+  width: 20%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.64);
+  color: white;
+  min-width: 300px;
+  border-radius: 5px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+#name,
+#age,
+#email {
+  margin: 10px 0;
+  padding: 15px 10px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.543);
+  color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+}
+select {
+  font-size: 18px;
+  margin: 10px 0;
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.543);
+  color: white;
+  border: 1px solid gray;
+}
+
+.movie-type,
+.gender,
+.feedback {
+  margin: 10px 0;
+}
+
+#feedback {
+  width: 90%;
+  height: 5rem;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.543);
+  color: white;
+  border: 1px solid gray;
+}
+h1 {
+  font-size: 64px;
+  font-family: Climate Crisis;
+  font-variant: small-caps;
+}
+.button {
+  background-color: red;
+  padding: 10px 60px;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  align-self: center;
+}
+.button:hover {
+  cursor: pointer;
+}
+.flix {
+  color: red;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.32);
+}
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

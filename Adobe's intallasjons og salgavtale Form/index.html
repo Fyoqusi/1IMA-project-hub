@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="no">
   <head>
@@ -99,3 +100,106 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae accusamus reprehe
     </form>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adobe's intallasjons og salgavtale</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Adobe's intallasjons og salgavtale</h1>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Personlig informasjon</legend>
+        <table>
+          <tr>
+            <td><label for="navn">Navn</label></td>
+            <td><input type="text" name="navn" id="navn" maxlength="32" /></td>
+          </tr>
+          <tr>
+            <td><label for="epost">Epost</label></td>
+            <td>
+              <input type="email" name="epost" id="epost" maxlength="32" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="img">Legg til bilde</label></td>
+            <td><input type="file" name="img" id="img" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Annen informasjon</legend>
+        <table>
+          <tr>
+            <td><label for="birthday">Fødselsdato</label></td>
+            <td><input type="date" name="birthday" id="birthday" /></td>
+          </tr>
+          <tr>
+            <td><label for="experience">Erfering i IT-bransjen</label></td>
+            <td>
+              <label for="expyears0-5"
+                ><input
+                  type="radio"
+                  name="expyears"
+                  id="expyears0-5"
+                  value="0-5"
+                />0 - 5 år</label
+              ><br />
+              <label for="expyears6-10"
+                ><input
+                  type="radio"
+                  name="expyears"
+                  id="expyears6-10"
+                  value="6-10"
+                />6 - 10 år</label
+              ><br />
+              <label for="expyears10"
+                ><input
+                  type="radio"
+                  name="expyears"
+                  id="expyears10"
+                  value="10+"
+                />10+ år</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td><label for="languages">Programmerings språk</label></td>
+            <td>
+              <select name="languages" id="languages" multiple>
+                <option value="C++">C++</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="Java">Java</option>
+                <option value="Javascript">Javascript</option>
+                <option value="PHP">PHP</option>
+                <option value="SQL">SQL</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Kontraktskopi</legend>
+        <textarea name="contract" id="contract" readonly cols="30px" rows="4">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae accusamus reprehenderit dolores quod aspernatur, ut quo corporis? Commodi, corrupti a possimus iure enim repellat quasi at accusamus voluptate nisi voluptas.</textarea
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Kontraktsbekreftelse</legend>
+        <input type="checkbox" name="confirmation" id="confirmation" required />
+        <label for="confirmation"
+          >Jeg godtar informasjonen ovenfor og bekrefter avtalen.</label
+        >
+        <br />
+        <input type="submit" value="Lagre skjemaet" />
+        <input type="reset" value="Reset skjemaet" />
+      </fieldset>
+    </form>
+  </body>
+</html>
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

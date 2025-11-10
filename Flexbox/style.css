@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 686px) {
   .container-1 {
     flex-direction: column;
@@ -44,3 +45,51 @@ span {
 body {
   font-family: sans-serif;
 }
+=======
+@media (max-width: 686px) {
+  .container-1 {
+    flex-direction: column;
+  }
+}
+
+p {
+  padding: 15px;
+  outline: 1px solid gray;
+}
+
+.container-1 {
+  outline: 1px solid red;
+  display: flex;
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: stretch; by default */
+  /* flex-direction: column; */
+}
+
+.container-2-box {
+  flex-basis: 25%;
+}
+#item1 {
+  flex: 2;
+  order: 2;
+}
+
+#item2 {
+  flex: 1;
+  order: 1;
+}
+
+#item3 {
+  flex: 1;
+  order: 3;
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+body {
+  font-family: sans-serif;
+}
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

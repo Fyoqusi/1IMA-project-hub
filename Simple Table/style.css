@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table,
 td {
   border: 1px solid black;
@@ -7,3 +8,14 @@ td {
   width: 100px;
   text-align: center;
 }
+=======
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  width: 100px;
+  text-align: center;
+}
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

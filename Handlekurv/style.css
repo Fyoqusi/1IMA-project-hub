@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -58,3 +59,65 @@ span {
 
   cursor: pointer;
 }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+p {
+  display: inline-block;
+  font-size: 24px;
+}
+table {
+  border-collapse: collapse;
+  margin: 50px;
+}
+tr {
+  border-top: 3px solid white;
+}
+td {
+  text-align: center;
+  min-width: 100px;
+  padding: 10px;
+  background-color: rgb(239, 239, 239);
+}
+
+th {
+  padding: 25px;
+}
+img {
+  height: 150px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+#toprow {
+  background-color: rgb(0, 151, 0);
+  color: white;
+}
+
+th {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+span {
+  color: gray;
+  font-size: 14px;
+}
+
+.produkt {
+  transition: transform 0.3s ease;
+}
+
+.produkt:hover {
+  /* border-left: 1px solid gray; */
+  transform: scale(1.03);
+
+  cursor: pointer;
+}
+>>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb
