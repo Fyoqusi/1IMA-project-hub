@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   font-family: lora;
   margin: 0;
@@ -68,74 +67,3 @@ span {
     max-width: 60%;
   }
 }
-=======
-body {
-  font-family: lora;
-  margin: 0;
-}
-
-.thebigone {
-  display: flex;
-  justify-content: space-around;
-  align-items: start;
-  min-height: 100dvh;
-}
-.thesmallerones {
-  margin: 15px 0px;
-  display: flex;
-  flex-direction: column;
-  max-width: 20%;
-  min-width: 200px;
-}
-img {
-  min-width: 200px;
-  max-width: 100%;
-  height: auto;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  aspect-ratio: 3/4;
-  object-fit: cover;
-  margin-bottom: 20px;
-  border-radius: 10px;
-}
-.themiddleone {
-  align-self: flex-end;
-}
-p {
-  min-width: 200px;
-  width: 100%;
-  font-size: 18px;
-  color: rgb(60, 60, 60);
-}
-span {
-  font-size: 28px;
-  font-style: italic;
-  font-weight: bold;
-}
-.skiingimage {
-  object-position: 70% center;
-}
-.bigtext {
-  font-weight: 100;
-  text-align: center;
-  position: absolute;
-  font-size: 6dvw;
-  font-style: normal;
-  line-height: 100%;
-}
-@media (max-width: 1200px) {
-  .bigtext {
-    display: none;
-  }
-  .thebigone {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .themiddleone {
-    align-self: center;
-  }
-  .thesmallerones {
-    max-width: 60%;
-  }
-}
->>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

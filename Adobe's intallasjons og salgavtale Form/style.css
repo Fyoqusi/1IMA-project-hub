@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 table,
 td {
   border: 1px solid;
@@ -16,22 +15,3 @@ body {
   flex-direction: column;
   align-items: center;
 }
-=======
-table,
-td {
-  border: 1px solid;
-  border-collapse: collapse;
-}
-td {
-  width: 100px;
-}
-fieldset {
-  max-width: 600px;
-}
-body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
->>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

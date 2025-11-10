@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Box1 {
   width: 50%;
   margin: 15px auto;
@@ -28,34 +27,3 @@
   padding: 30px;
   background-color: burlywood;
 }
-=======
-#Box1 {
-  width: 50%;
-  margin: 15px auto;
-  background-color: #ffd;
-  border: 5px dashed #f4a460;
-  padding: 1.5em;
-}
-#Box2 {
-  width: 25em;
-  border-bottom: 10px double darkslategray;
-  border-top: 10px double darkslategray;
-  background-color: #dff;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  margin: 2em;
-  margin-bottom: 20px;
-}
-
-#Box3 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  margin-left: 500px;
-  margin-right: 150px;
-  outline: 1em lightsalmon;
-  padding: 30px;
-  background-color: burlywood;
-}
->>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

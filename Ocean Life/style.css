@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 td {
   width: 100px;
   padding: 10px;
@@ -33,39 +32,3 @@ h1 {
   transform: translateY(-3px);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-=======
-td {
-  width: 100px;
-  padding: 10px;
-}
-
-img {
-  width: 200px;
-  height: 130px;
-  transition: transform 0.3s ease;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.storBilde {
-  width: 40%;
-  height: auto;
-  margin-bottom: 32px;
-  border-radius: 20px;
-}
-body {
-  text-align: center;
-}
-table {
-  margin: auto;
-}
-
-h1 {
-  font-size: 48px;
-}
-
-.smallPicture:hover {
-  outline: 3px solid rgb(96, 148, 246);
-  transform: translateY(-3px);
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
->>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   padding: 0;
   margin: 0;
@@ -35,41 +34,3 @@ li {
 .li7 {
   background-color: blue;
 }
-=======
-body {
-  padding: 0;
-  margin: 0;
-}
-
-h1 {
-  margin: 10px;
-}
-li {
-  list-style-type: none;
-  padding: 10px;
-  width: 25px;
-  height: 15px;
-}
-.li1 {
-  background-color: rgba(0, 0, 255, 0.1);
-}
-.li2 {
-  background-color: rgba(0, 0, 255, 0.25);
-}
-.li3 {
-  background-color: rgba(0, 0, 255, 0.4);
-}
-.li4 {
-  background-color: rgba(0, 0, 255, 0.55);
-}
-.li5 {
-  background-color: rgba(0, 0, 255, 0.67);
-}
-.li6 {
-  background-color: rgba(0, 0, 255, 0.8);
-}
-
-.li7 {
-  background-color: blue;
-}
->>>>>>> c016f3030eabcd66ed1d53eb9404fac30e4bfbfb
