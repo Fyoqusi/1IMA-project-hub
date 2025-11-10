@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="heading">
+      <h1><span class="net">Net</span><span class="flix">Flix</span></h1>
+      <h2>Thank you for signing up at Netflix! Tell us more about yourself!</h2>
+    </div>
+    <div class="form">
+      <form action="post">
+        <label for="name">Name</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+        /><br />
+        <label for="age">Age</label><br />
+        <input type="text" id="age" name="age" placeholder="Age" /><br />
+        <label for="email">Email</label><br />
+        <input type="email" name="email" id="email" placeholder="Email" /><br />
+        <label for="ctype">Content type</label><br />
+        <div class="content-type">
+          <select name="ctype" id="ctype">
+            <option value="Movies">Movies</option>
+            <option value="Series">Series</option>
+            <option value="Anime">Anime</option>
+            <option value="Cartoons">Cartoons</option>
+          </select>
+        </div>
+        <div class="movie-type">
+          <label for="mtype">Movie type</label><br />
+          <input type="checkbox" name="mtype" id="comedy" value="comedy" />
+          <label for="comedy">Comedy</label><br />
+          <input type="checkbox" name="mtype" id="action" value="action" />
+          <label for="action">Action</label><br />
+          <input type="checkbox" name="mtype" id="romance" value="romance" />
+          <label for="romance">Romance</label><br />
+        </div>
+        <div class="gender">
+          <label for="gender">Gender</label><br />
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label><br />
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label><br />
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Other</label><br />
+        </div>
+        <div class="feedback">
+          <label for="feedback">Feedback</label><br />
+          <textarea
+            name="feedback"
+            id="feedback"
+            placeholder="Any comment"
+          ></textarea>
+        </div>
+        <input class="button" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

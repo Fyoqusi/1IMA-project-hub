@@ -1,0 +1,21 @@
+table,
+td {
+  margin: auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td {
+  width: 300px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.topRow {
+  color: white;
+  background-color: darkred;
+  font-weight: bold;
+  font-size: 24px;
+}

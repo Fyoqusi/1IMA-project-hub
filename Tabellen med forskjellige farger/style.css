@@ -1,0 +1,39 @@
+body {
+  text-align: center;
+}
+table {
+  margin: auto;
+}
+.tabledata {
+  color: white;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+}
+
+.tabledata1 {
+  background-color: red;
+  color: black;
+}
+
+.tabledata2 {
+  background-color: rgb(248, 163, 5);
+  color: black;
+}
+
+.tabledata3 {
+  background-color: #2bf324;
+  color: black;
+}
+
+.tabledata4 {
+  background-color: hsl(180, 59%, 44%);
+}
+
+.tabledata5 {
+  background-color: rgba(0, 0, 139, 0.733);
+}
+
+.tabledata6 {
+  background-color: hsla(298, 78%, 16%, 0.897);
+}

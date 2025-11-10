@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>JavaScript Shenanigans</h1>
+    <!-- Første oppgave -->
+    <div class="first-task">
+      <input id="first-text" type="text" /><br />
+      <input id="second-text" type="text" /><br />
+      <button onclick="first()">Combine text</button>
+      <div id="div1"></div>
+    </div>
+    <!-- Andre oppgave -->
+    <div class="second-task">
+      <input
+        type="number"
+        name="ifpositive"
+        id="ifpositive"
+        min="-999999999999"
+        max="9999999999999"
+      /><br />
+      <button onclick="second()">Check if positive</button>
+    </div>
+    <!-- Tredje oppgave -->
+    <div class="third-task">
+      <input
+        type="number"
+        name="first-number"
+        id="first-number"
+        min="-999999999999"
+        max="9999999999999"
+      /><input
+        type="number"
+        name="second-number"
+        id="second-number"
+        min="-999999999999"
+        max="9999999999999"
+      /><br />
+      <button onclick="third()">Which one is bigger</button>
+      <!-- Fjerde oppgave -->
+    </div>
+    <div class="fourth-task">
+      <input type="number" name="firstofthree" id="firstofthree" /><input
+        type="number"
+        name="secondofthree"
+        id="secondofthree"
+      /><input type="number" name="thirdofthree" id="thirdofthree" /><br />
+      <button onclick="fourth()">Which one out of three is bigger</button>
+    </div>
+    <!-- Femte oppgave -->
+    <div class="fifth-task">
+      <input
+        type="number"
+        name="karakter"
+        id="karakter"
+        placeholder="Karakter"
+      /><br /><button onclick="fifth()">If passed</button>
+    </div>
+    <!-- Sjette oppgave -->
+    <div class="sixth-task">
+      <input
+        type="number"
+        name="day"
+        id="day"
+        min="1"
+        max="7"
+        maxlength="1"
+      /><br />
+      <button onclick="sixth()">What day is it?</button>
+    </div>
+    <!-- Sjuende oppgave -->
+    <div class="seventh-task">
+      <label for="celsius">Celsius</label
+      ><input type="number" name="celsius" id="celsius" /><br />
+      <label for="fahrenheit">Fahrenheit</label>
+      <span id="fahrenheit"></span><br />
+      <button onclick="seventh()">Convert</button>
+    </div>
+    <!-- Tiende oppgave -->
+    <div class="tenth-task">
+      <input
+        type="text"
+        name="letter"
+        id="letter"
+        maxlength="1"
+        placeholder="Enter a letter"
+      /><br />
+      <button onclick="tenth()">If vocal</button>
+    </div>
+    <!-- Ellevte oppgave -->
+    <div class="eleventh-task">
+      <input
+        type="text"
+        name="color"
+        id="color"
+        placeholder="Enter a color"
+      /><br /><button onclick="eleventh()" id="coloured-button">
+        Change the color
+      </button>
+    </div>
+  </body>
+</html>
