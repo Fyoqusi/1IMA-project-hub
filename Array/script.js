@@ -69,13 +69,13 @@ numbers3.forEach((element) => {
 console.log(nextbiggest);
 
 // Utfordring 4
-let biggest = 0;
-let smallest = 10000;
+let biggest = numbers3[0];
+let smallest = numbers3[0];
 numbers3.forEach((element) => {
-  if (element > biggest) {
+  if (element >= biggest) {
     biggest = element;
   }
-  if (element < smallest) {
+  if (element <= smallest) {
     smallest = element;
   }
 });
