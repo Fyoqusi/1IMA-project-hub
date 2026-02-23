@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/2848105.jpg");
+  color: white;
+}
+
+#headings {
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+
+#inputs {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  margin: 0 5px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+#input:hover {
+  cursor: auto;
+  background-color: rgb(244, 244, 244);
+}
+input:hover {
+  background-color: rgb(227, 227, 227);
+  cursor: pointer;
+}
+#errorMessage {
+  display: none;
+}

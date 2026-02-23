@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Find the Number</title>
+  </head>
+  <body>
+    <div id="headings">
+      <h1>Find the Number (1 - 100)</h1>
+      <h2>The number is <span id="compare">...</span></h2>
+      <h3 id="errorMessage">Type a number!</h3>
+    </div>
+    <div id="inputs">
+      <input type="number" id="input" min="1" max="100" /><input
+        type="button"
+        value="Check"
+        id="check"
+      /><input type="button" value="Guess random number" id="guessRandom" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
