@@ -8,7 +8,7 @@ inputMovie.addEventListener("keydown", function (event) {
     findMovie();
   }
 });
-buttonSearch.addEventListener("click", findMovie());
+buttonSearch.addEventListener("click", findMovie);
 
 async function findMovie() {
   let inputMovieValue = inputMovie.value.trim();
