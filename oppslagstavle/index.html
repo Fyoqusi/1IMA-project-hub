@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oppslagstavle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Oppslagstavle</h1>
+
+      <!-- Legg til nytt oppslag -->
+      <div class="add-container">
+        <h2>Legg til nytt oppslag</h2>
+
+        <input type="text" placeholder="Skriv inn emne" id="inpEmne" required />
+
+        <textarea
+          placeholder="Skriv inn beskrivelse"
+          id="inpDesc"
+          required
+        ></textarea>
+
+        <input type="date" id="inpDate" required />
+
+        <button class="add-btn">Legg til</button>
+      </div>
+      <div class="display-container"></div>
+    </div>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
+      import {
+        getDatabase,
+        ref,
+        set,
+        child,
+        remove,
+        get,
+        update,
+      } from "https://www.gstatic.com/firebasejs/12.13.0/firebase-database.js";
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyB-687DL5YQ2XE8tqgsGMFzHy8i3Kiz2OM",
+        authDomain: "oppslagstavle-6475d.firebaseapp.com",
+        databaseURL:
+          "https://oppslagstavle-6475d-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "oppslagstavle-6475d",
+        storageBucket: "oppslagstavle-6475d.firebasestorage.app",
+        messagingSenderId: "821034107539",
+        appId: "1:821034107539:web:1672089fc36ff6ddf24366",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const db = getDatabase();
+      const container = document.querySelector(".display-container");
+      const inpEmne = document.getElementById("inpEmne");
+      const inpDesc = document.getElementById("inpDesc");
+      const inpDate = document.getElementById("inpDate");
+      const btnAdd = document.querySelector(".add-btn");
+      let currentEditId = null;
+
+      btnAdd.addEventListener("click", writeUserData);
+
+      function writeUserData() {
+        let emne = inpEmne.value;
+        let desc = inpDesc.value;
+        let date = inpDate.value;
+        let uid = "id" + Math.random().toString(16).slice(2);
+        set(ref(db, "oppslag/" + uid), {
+          emne: emne,
+          desc: desc,
+          date: date,
+          uid: uid,
+        });
+        clearAdd();
+        readUserData();
+      }
+
+      function readUserData() {
+        const dbRef = ref(getDatabase());
+        get(child(dbRef, `oppslag/`))
+          .then((snapshot) => {
+            if (snapshot.exists()) {
+              container.innerHTML = "";
+              const tasks = snapshot.val();
+              console.log(tasks);
+              Object.keys(tasks).forEach((element) => {
+                let oppgave = tasks[element];
+                console.log(oppgave);
+                let emne = oppgave.emne;
+                let desc = oppgave.desc;
+                let date = oppgave.date;
+                let uid = oppgave.uid;
+
+                let oppslagDiv = document.createElement("div");
+                oppslagDiv.innerHTML = `<div class="oppslag" id="oppslag-${uid}">
+                  <h2><span id="emne-${uid}">${emne}</span></h2>
+
+                  <p>
+                    <strong>Beskrivelse:</strong>
+                    <span id="desc-${uid}">${desc}</span>
+
+                  </p>
+
+                  <p>
+                    <strong>Frist:</strong>
+                    <span id="date-${uid}">${date}</span>
+                  </p>
+
+                  <div class="buttons">
+                    <button class="edit-btn" id="btn-edit-${uid}">Rediger</button>
+                    <button class="delete-btn" id="btn-del-${uid}">Slett</button>
+                  </div>
+                </div>`;
+                container.appendChild(oppslagDiv);
+                deleteUserData(uid);
+                updateUserData(uid);
+              });
+            } else {
+              console.log("No data available");
+            }
+          })
+          .catch((error) => {
+            console.error(error);
+          });
+      }
+
+      function deleteUserData(uid) {
+        let btnDel = document.getElementById(`btn-del-${uid}`);
+        btnDel.addEventListener("click", function () {
+          remove(ref(db, "oppslag/" + uid));
+          document.getElementById(`oppslag-${uid}`).style.display = "none";
+        });
+      }
+      function updateUserData(uid) {
+        let btnEdit = document.getElementById(`btn-edit-${uid}`);
+
+        btnEdit.addEventListener("click", function () {
+          btnAdd.removeEventListener("click", writeUserData);
+          inpEmne.value = document.getElementById(`emne-${uid}`).innerText;
+          inpDesc.value = document.getElementById(`desc-${uid}`).innerText;
+          inpDate.value = document.getElementById(`date-${uid}`).innerText;
+          btnAdd.innerText = "Bekreft";
+          currentEditId = uid;
+          btnAdd.addEventListener("click", editUserData);
+        });
+      }
+      function clearAdd() {
+        inpEmne.value = "";
+        inpDesc.value = "";
+        inpDate.value = "";
+      }
+
+      function editUserData() {
+        update(ref(db, "oppslag/" + currentEditId), {
+          emne: inpEmne.value,
+          desc: inpDesc.value,
+          date: inpDate.value,
+        });
+        clearAdd();
+        btnAdd.innerText = "Legg til";
+        btnAdd.addEventListener("click", writeUserData);
+        btnAdd.removeEventListener("click", editUserData);
+        readUserData();
+      }
+      readUserData();
+    </script>
+  </body>
+</html>
