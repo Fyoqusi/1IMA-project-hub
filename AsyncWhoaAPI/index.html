@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="movie-page">
+      <!-- Film -->
+      <section class="movie-header">
+        <div class="poster-container">
+          <img
+            src="poster.jpg"
+            alt="Filmplakat"
+            class="movie-poster"
+            id="poster"
+          />
+        </div>
+
+        <div class="movie-info">
+          <span class="movie-label">FILM</span>
+
+          <h1 id="name"></h1>
+
+          <div class="movie-details">
+            <div class="detail">
+              <span class="detail-label">ÅR</span>
+              <span class="detail-value" id="year"></span>
+            </div>
+
+            <div class="detail">
+              <span class="detail-label">REGI</span>
+              <span class="detail-value" id="director"></span>
+            </div>
+
+            <div class="detail">
+              <span class="detail-label">LENGDE</span>
+              <span class="detail-value" id="duration"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Timestamp -->
+      <section class="timestamp-section">
+        <div class="section-heading">
+          <span class="line"></span>
+          <span>UTVALGT SCENE</span>
+        </div>
+
+        <div class="timestamp-card">
+          <div class="timestamp" id="timestamp"></div>
+
+          <div class="timestamp-info">
+            <h2>Scene fra filmen</h2>
+            <p>Videoen under starter senere fra dette tidspunktet.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video -->
+      <section class="video-section">
+        <div class="video-container">
+          <video src="" id="video" controls></video>
+        </div>
+      </section>
+      <!-- Ny film -->
+      <div class="new-movie-container">
+        <button class="new-movie-button" id="button">
+          <span class="reload-icon">↻</span>
+          <span>Ny film</span>
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
