@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="signup-form">
+        <h2>Log into Account</h2>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            required
+            id="inpEmail"
+          />
+        </div>
+
+        <div class="input-group">
+          <label>Password</label>
+          <input
+            type="password"
+            placeholder="Enter password"
+            required
+            id="inpPass"
+          />
+        </div>
+
+        <button type="submit" id="submitLogIn">Log In</button>
+
+        <div id="signUpMessage" style="display: none"></div>
+
+        <p class="login-link">
+          Don't have an account? <a href="index.html">Sign Up</a>
+        </p>
+        <hr />
+        <div>Current account: <span id="currentUser">None</span></div>
+        <button type="submit" id="signOut" style="display: none">
+          Sign Out
+        </button>
+      </form>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
